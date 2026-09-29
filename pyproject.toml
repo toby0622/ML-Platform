@@ -29,16 +29,16 @@ dev = [
 mlflow = ["mlflow==3.14.0"]
 kfp = ["kfp==2.16.0"]
 otel = [
-  "opentelemetry-exporter-otlp-proto-http==1.44.0",
-  "opentelemetry-instrumentation-fastapi==0.65b0",
-  "opentelemetry-sdk==1.44.0",
+  "opentelemetry-exporter-otlp-proto-http==1.45.0",
+  "opentelemetry-instrumentation-fastapi==0.66b0",
+  "opentelemetry-sdk==1.45.0",
 ]
 all = [
   "mlflow==3.14.0",
   "kfp==2.16.0",
-  "opentelemetry-exporter-otlp-proto-http==1.44.0",
-  "opentelemetry-instrumentation-fastapi==0.65b0",
-  "opentelemetry-sdk==1.44.0",
+  "opentelemetry-exporter-otlp-proto-http==1.45.0",
+  "opentelemetry-instrumentation-fastapi==0.66b0",
+  "opentelemetry-sdk==1.45.0",
 ]
 
 [project.scripts]
